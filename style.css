@@ -1,10 +1,17 @@
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --light-gray-color: hsl(212, 45%, 89%);
+    --grayish-blue-color: hsl(220, 15%, 55%);
+    --dark-blue-color: hsl(218, 44%, 22%);
+}
+
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: hsl(212, 45%, 89%)
+    background-color: var(--light-gray-color);
 }
 
 .qr-code {
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--white-color);
     border-radius: 20px;
     width: 290px;
     padding: 16px;
@@ -25,14 +32,14 @@ body {
 
 .qr-code .title {
     font-size: 22px;
-    color: hsl(218, 44%, 22%);
+    color: var(--dark-blue-color);
     font-weight: bold;
     margin: 18px 0;
 }
 
 .qr-code .suggestion {
     font-size: 15px;
-    color: hsl(220, 15%, 55%)
+    color: var(--grayish-blue-color);
 }
 
 .attribution {
