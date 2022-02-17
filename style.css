@@ -1,0 +1,45 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%)
+}
+
+.qr-code {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 290px;
+    padding: 16px;
+    text-align: center;
+    margin: auto;
+    margin-top: 152px;
+    box-shadow: 0px 9px 17px 6px rgba(0, 0, 0, 0.05);
+}
+
+.qr-code img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.qr-code>.content {
+    padding: 0 20px;
+}
+
+.qr-code .title {
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+    font-weight: bold;
+    margin: 18px 0;
+}
+
+.qr-code .suggestion {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%)
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
