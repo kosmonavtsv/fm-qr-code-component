@@ -20,7 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: https://kosmonavtsv.github.io/qr-code-component-main
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/qr-code-component-just-html-and-css-EGp5h6hut)
+- Live Site URL: [Github Page](https://kosmonavtsv.github.io/fm-qr-code-component)
 
 ## My process
 
